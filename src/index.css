@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h1 {
+  font-family: Oranienbaum;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: normal;
+  color: #FFBF00;
+}
+
+.content-text {
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 39px;
+  letter-spacing: 0.05em;
+  color: #707070;
+}
+
+.parallax-background {
+  width: 50vh;
+}

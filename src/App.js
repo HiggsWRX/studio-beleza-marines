@@ -1,25 +1,34 @@
 import React from 'react';
+import { HashRouter as Router, Route } from 'react-router-dom';
+import { ParallaxProvider } from 'react-scroll-parallax';
+
+
+import Navbar from './components/Navbar';
+import TopInfo from './components/TopInfo';
+import Landing from './components/Landing';
+import Services from './components/Services';
+import Products from './components/Products';
+import Team from './components/Team';
+import Footer from './components/Footer';
+import * as ROUTES from './constants/routes';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ParallaxProvider>
+      <Router>
+        <TopInfo />
+        <Navbar />
+
+        <Landing />
+        <Services />
+        <Products />
+        <Team />
+
+        <Footer />
+      </Router>
+    </ParallaxProvider>
   );
 }
 

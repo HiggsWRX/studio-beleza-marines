@@ -1,0 +1,14 @@
+#top-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFDBDD;
+  color: white;
+  font-weight: 700;
+  padding-left: 4em;
+  padding-right: 4em;
+  height: 35px;
+}
+#top-info #top-info-spacer {
+  padding-right: 4em;
+}

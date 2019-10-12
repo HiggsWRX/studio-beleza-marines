@@ -1,0 +1,19 @@
+#products-wrapper > h1 {
+  text-align: end;
+  margin-right: 1em;
+}
+
+#products-wrapper > p {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#products-wrapper #products-list {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Tangerine;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #FFBF00;
+}

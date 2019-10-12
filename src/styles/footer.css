@@ -1,0 +1,17 @@
+#footer-content {
+  display: flex;
+  justify-content: space-between;
+  background: #FFDBDD;
+  color: white;
+  height: 150px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#copyright {
+  text-align: center;
+  font-size: 13px;
+  line-height: 16px;
+  color: #A6A6A6;
+  padding: 1em;
+}

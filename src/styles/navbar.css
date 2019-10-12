@@ -1,0 +1,24 @@
+#nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav-wrapper #nav-logo {
+  width: 20%;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#nav-items {
+  color: #707070;
+  font-size: 14px;
+  line-height: 16px;
+  padding-right: 4em;
+}
+#nav-items > li {
+  display: inline;
+  margin-left: 2em;
+  margin-right: 2em;
+}

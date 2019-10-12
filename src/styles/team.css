@@ -1,0 +1,31 @@
+#team-wrapper > img {
+  display: block;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#team-wrapper > h1 {
+  margin-left: 1em;
+}
+
+#team-wrapper > p {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+#portraits-wrapper {
+  display: flex;
+  justify-content: space-around;
+  font-family: Tangerine;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 140%;
+  color: #707070;
+  text-align: center;
+}
+
+#portraits-wrapper > div > img {
+  width: 50% !important;
+}
