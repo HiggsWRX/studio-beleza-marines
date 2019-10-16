@@ -15,3 +15,11 @@
   color: #A6A6A6;
   padding: 1em;
 }
+
+#footer-content > p:nth-child(4) {
+  margin-right: 2em;
+  font-family: Poiret One;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+}

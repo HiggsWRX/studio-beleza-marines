@@ -18,7 +18,7 @@ const Footer = () => {
           <br /><br />
           Email
           <br /> geral@studiobelezamarines.com</p>
-        <p>Siga-nos nas redes sociais<br /> social links</p>
+        <p>Siga-nos nas<br />redes sociais<br /> social links</p>
       </div>
       <div id="copyright">Studio de Beleza Marinês Oliveira © {new Date().getFullYear()}  -  made with ♥ by Hiago Oliveira</div>
     </div>

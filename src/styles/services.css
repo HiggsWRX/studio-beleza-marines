@@ -1,12 +1,3 @@
-#services-wrapper > h1 {
-  margin-left: 1em;
-}
-
-#services-wrapper > p {
-  margin-left: 2em;
-  margin-right: 2em;
-}
-
 #services-wrapper #services-list {
   display: flex;
   justify-content: space-evenly;

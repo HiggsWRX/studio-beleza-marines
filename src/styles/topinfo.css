@@ -1,4 +1,6 @@
 #top-info {
+  position: fixed;
+  z-index: 999;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,6 +10,7 @@
   padding-left: 4em;
   padding-right: 4em;
   height: 35px;
+  width: 100%;
 }
 #top-info #top-info-spacer {
   padding-right: 4em;

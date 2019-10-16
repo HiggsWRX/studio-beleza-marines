@@ -9,11 +9,6 @@
   margin-left: 1em;
 }
 
-#team-wrapper > p {
-  margin-left: 2em;
-  margin-right: 2em;
-}
-
 #portraits-wrapper {
   display: flex;
   justify-content: space-around;

@@ -9,6 +9,7 @@ import Landing from './components/Landing';
 import Services from './components/Services';
 import Products from './components/Products';
 import Team from './components/Team';
+import Location from './components/Location';
 import Footer from './components/Footer';
 import * as ROUTES from './constants/routes';
 import logo from './logo.svg';
@@ -18,15 +19,18 @@ function App() {
   return (
     <ParallaxProvider>
       <Router>
-        <TopInfo />
-        <Navbar />
+        <section id="container">
+          <TopInfo />
+          <Navbar />
 
-        <Landing />
-        <Services />
-        <Products />
-        <Team />
+          <Landing />
+          <Services />
+          <Products />
+          <Team />
+          <Location />
 
-        <Footer />
+          <Footer />
+        </section>
       </Router>
     </ParallaxProvider>
   );

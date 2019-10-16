@@ -1,4 +1,8 @@
 #nav-wrapper {
+  position: fixed;
+  background: white;
+  z-index: 999;
+  margin-top: 35px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,4 +25,8 @@
   display: inline;
   margin-left: 2em;
   margin-right: 2em;
+}
+
+.active {
+  color: #FFDBDD;
 }
